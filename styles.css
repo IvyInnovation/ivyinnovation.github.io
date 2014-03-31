@@ -1,0 +1,20 @@
+body {
+  background: #333;
+}
+#container {
+  background: white;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  width: 700px;
+  margin: auto;
+  font-family: 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+#hero {
+  width: 300px;
+}
+#container p {
+  width: 400px;
+  margin-left: 130px;
+}
+

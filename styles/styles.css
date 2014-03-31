@@ -3,6 +3,7 @@ body {
   background-size: 100%;
   background-attachment: fixed;
   padding: 50px 0;
+  margin: 0;
 }
 #container {
   background: white;
@@ -23,6 +24,7 @@ body {
 }
 ul {
   margin: 0;
+  padding: 0;
   list-style: none;
   height: 200px;
   margin-top: 40px;
@@ -45,9 +47,43 @@ ul {
       margin-right: 0;
     }
     ul li p {
-      width: 170px;
+      width: 190px;
     }
     ul li img {
       height: 40px;
     }
+
+@media (max-width: 899px) {
+  body {
+    padding: 0;
+  }
+  #container {
+    width: 100%;
+    margin: 0;
+  }
+  #container > p {
+    width: 100%;
+    margin: 0;
+  }
+  ul li {
+    margin: 0;
+    width: 33%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  ul li p {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  ul li, ul li p {
+    width: 100%;
+    margin: 0;
+  }
+  ul {
+    height: 600px;
+  }
+}
 

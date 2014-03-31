@@ -7,7 +7,7 @@ body {
 }
 #container {
   background: white;
-  padding: 40px 20px;
+  padding: 40px 20px 10px 20px;
   box-sizing: border-box;
   width: 700px;
   margin: auto;
@@ -52,6 +52,11 @@ ul {
     ul li img {
       height: 40px;
     }
+#footer p, #footer p a {
+  color: #555;
+  font-style: italic;
+  font-size: 12px;
+}
 
 @media (max-width: 899px) {
   body {

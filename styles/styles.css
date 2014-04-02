@@ -100,6 +100,9 @@ ul {
     padding: 0;
     width: 100%;
   }
+  ul {
+    height: 250px;
+  }
 }
 @media (max-width: 500px) {
   ul li, ul li p {
@@ -107,7 +110,7 @@ ul {
     margin: 0;
   }
   ul {
-    height: 600px;
+    height: 500px;
   }
 }
 

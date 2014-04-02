@@ -22,36 +22,54 @@ h1 {
   font-size: 48px;
   margin: 0;
 }
+h2 {
+  color: #666;
+  font-weight: normal;
+  border-bottom: 2px solid #666;
+  padding: 5px;
+  font-style: italic;
+}
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  height: 200px;
+  height: 210px;
   margin-top: 40px;
+  }
+  #members li a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  #members li:hover {
+    border: 1px solid #333;
   }
   ul li {
     float: left;
     margin-right: 35px;
     counter-increment: step;
+    border: 1px solid white;
+    width: 188px;
     }
-    ul li h3:before {
+    #steps li h3:before {
       content: counter(step) ". ";
     }
-    ul li h3, ul li h3:before {
+    ul li h3, #steps li h3:before {
       margin: 0 0 10px 0;
       font-weight: normal;
       font-style: italic;
       color: #666;
     }
-    ul li:last-of-type {
+    ul li:nth-of-type(3n) {
       margin-right: 0;
-    }
-    ul li p {
-      width: 190px;
     }
     ul li img {
       height: 40px;
     }
+#members li {
+  margin-bottom: 30px;
+}
 #footer p, #footer p a {
   color: #555;
   font-style: italic;
